@@ -1,1 +1,1 @@
-# tiy-4.1-jquery-basics
+## 4 1 jquery with yeoman

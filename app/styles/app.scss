@@ -1,0 +1,104 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/jquery-ui/themes/base/jquery-ui.css';
+
+$panel-font-numbers: rgb(122, 121, 122);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+#accordion {
+  max-width: 25%;
+  h3 {
+    font-size: 12px;
+    .glyphicon {
+      padding-right: 20px;
+    }
+  }
+}
+
+h3.ui-accordion-header {
+  color: white;
+  font-weight: bold;
+}
+
+h3.ui-accordion-header-active {
+  color: rgb(51, 52, 54);
+  font-weight: bold;
+}
+
+.ui-accordion-header {
+  background: linear-gradient(rgba(95, 98, 102, .8), rgba(70, 72, 75, 1));
+}
+
+.ui-accordion-header-active {
+  background: linear-gradient(rgba(73, 135, 162, .8), rgba(55, 105, 126, 1));
+  margin-top: 0px;
+}
+
+#ui-accordion-accordion-header-0,
+#ui-accordion-accordion-header-1,
+#ui-accordion-accordion-header-2,
+#ui-accordion-accordion-header-3 {
+  margin-top: 0px;
+  border: none;
+  border-radius: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+span.badge.pull-right {
+  background-color: rgba(64, 67, 70, .5);
+  font-size: 12px;
+}
+
+h3 > span.badge.pull-right {
+  margin-right: 2px;
+}
+
+li > span.badge.pull-right {
+  margin-right: 10px;
+  background-color: transparent;
+  color: $panel-font-numbers;
+  border: 1px solid $panel-font-numbers;
+}
+
+.counters {
+  background-color: transparent;
+  color: $panel-font-numbers;
+  font-weight: 300;
+  padding-right: 20px;
+}
+
+#ui-accordion-accordion-panel-0,
+#ui-accordion-accordion-panel-1,
+#ui-accordion-accordion-panel-2,
+#ui-accordion-accordion-panel-3 {
+  padding: 0px;
+  background-color: #E6E6E6;
+  border-radius: 0px;
+}
+
+.ui-accordion-content {
+  li {
+    background-color: #E6E6E6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(70, 72, 75);
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(70, 72, 75);
+  }
+}
