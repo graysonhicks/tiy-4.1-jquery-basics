@@ -5,3 +5,5 @@ var $ = require('jquery');
 var widget = $('#accordion').accordion({
   icons: false
 });
+
+$( "#datepicker" ).datepicker();
